@@ -141,10 +141,6 @@ Lint/IneffectiveAccessModifier:
     of a class method, which does not work.
   Enabled: true
 
-Lint/LiteralInCondition:
-  Description: Checks of literals used in conditions.
-  Enabled: true
-
 # Supports --auto-correct
 Lint/LiteralInInterpolation:
   Description: Avoid interpolating literals in strings
@@ -1681,12 +1677,6 @@ Layout/SpaceInsideBlockBraces:
     - no_space
   EnforcedStyleForEmptyBraces: no_space
   SpaceBeforeBlockParameters: true
-
-# Supports --auto-correct
-Layout/SpaceInsideBrackets:
-  Description: No spaces after [ or before ].
-  StyleGuide: https://github.com/bbatsov/ruby-style-guide#no-spaces-braces
-  Enabled: true
 
 # Supports --auto-correct
 Layout/SpaceInsideHashLiteralBraces:
