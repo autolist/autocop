@@ -1,5 +1,7 @@
 # Autocop
 
+[![Build Status](https://travis-ci.org/autolist/autocop.svg?branch=master)](https://travis-ci.org/autolist/autocop)
+
 Autolist approved ruby style rules to write code without worrying about upsetting
 your fellow developer.
 
