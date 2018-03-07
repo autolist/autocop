@@ -25,6 +25,10 @@ Rails:
 Documentation:
   Enabled: false
 
+Bundler/OrderedGems:
+  TreatCommentsAsGroupSeparators: true
+  Enabled: true
+
 Lint/AmbiguousOperator:
   Description: Checks for ambiguous operators in the first argument of a method invocation
     without parentheses.
