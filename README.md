@@ -1,5 +1,6 @@
 # Autocop
 
+[![Latest Version](https://img.shields.io/gem/v/autocop.svg)](http://rubygems.org/gems/autocop)
 [![Build Status](https://travis-ci.org/autolist/autocop.svg?branch=master)](https://travis-ci.org/autolist/autocop)
 
 Autolist approved ruby style rules to write code without worrying about upsetting
