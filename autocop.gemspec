@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
   spec.name          = 'autocop'
   spec.version       = Autocop::VERSION
   spec.authors       = ['Autolist Engineering']
-  spec.email         = %w[engineering@autolist.com]
+  spec.email         = %w[dev@autolist.com]
   spec.summary       = 'Autolist ruby style guide'
   spec.description   = 'Autolist ruby style guide for rubocop'
   spec.homepage      = 'https://github.com/autolist/autocop'
