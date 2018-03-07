@@ -1,3 +1,8 @@
+## v0.1.2 - 2018-03-07
+
+- Relax ruby version to >= 2.2 for now
+- Relax rubocop dependency version
+
 ## v0.1.1 - 2018-03-06
 
 - Add `Bundler/OrderedGems` cop for including comments as sections
