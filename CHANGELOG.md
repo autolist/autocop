@@ -1,4 +1,8 @@
-## v0.1.2 - 2018-03-27
+## v0.1.4 - 2018-03-27
+
+- Performance/HashEachMethods removed
+
+## v0.1.3 - 2018-03-27
 
 - Remove old lint cops that are under layout now
 - Break out trailing comma cops for hash and array
