@@ -1,3 +1,8 @@
+## v0.1.2 - 2018-03-27
+
+- Remove old lint cops that are under layout now
+- Break out trailing comma cops for hash and array
+
 ## v0.1.2 - 2018-03-07
 
 - Relax ruby version to >= 2.2 for now
