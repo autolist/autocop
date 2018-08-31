@@ -2,6 +2,7 @@
 
 [![Gem Version](https://badge.fury.io/rb/autocop.svg)](https://badge.fury.io/rb/autocop)
 [![Build Status](https://travis-ci.org/autolist/autocop.svg?branch=master)](https://travis-ci.org/autolist/autocop)
+[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=autolist/autocop)](https://dependabot.com)
 
 Autolist approved ruby style rules to write code without worrying about upsetting
 your fellow developer.
