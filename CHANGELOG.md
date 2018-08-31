@@ -1,3 +1,8 @@
+## v0.2.0 - 2018-08-31
+
+- Update rubocop version 0.58
+- Update rubocop-rspec 1.29
+
 ## v0.1.4 - 2018-03-27
 
 - Performance/HashEachMethods removed

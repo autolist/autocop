@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    autocop (0.1.4)
+    autocop (0.2.0)
       rubocop (>= 0.52.1)
       rubocop-rspec (>= 1.22.1)
 
@@ -59,4 +59,4 @@ DEPENDENCIES
   rspec
 
 BUNDLED WITH
-   1.16.1
+   1.16.4
