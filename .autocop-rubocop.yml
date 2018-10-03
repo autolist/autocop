@@ -521,7 +521,8 @@ RSpec/DescribeClass:
     - 'spec/features/**/*'
 
 RSpec/ImplicitExpect:
-  EnforcedStyle: should
+  Enabled: true
+  EnforcedStyle: is_expected
 
 RSpec/LeadingSubject:
   Enabled: false
