@@ -1,3 +1,12 @@
+## v0.2.2 - 2018-10-10
+
+- Correct the naming of the UnneededCopDisableDirective
+
+##  v0.2.1 - 2018-10-03
+
+- Update rubocop version 0.59.2
+- Change RSpec/ImplicitExpect enforced style to be is_expected
+
 ## v0.2.0 - 2018-08-31
 
 - Update rubocop version 0.58
