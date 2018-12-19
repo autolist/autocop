@@ -1,3 +1,7 @@
+## v0.2.4 - 2018-12-19
+
+- Change styling for signal exception to be only raise (@tlubz)
+
 ## v0.2.3 - 2018-12-14
 
 - Update allowed ruby versions to include 2.6.x
