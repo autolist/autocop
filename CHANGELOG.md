@@ -1,3 +1,7 @@
+## v0.2.6 - 2019-03-05
+
+- Remove duplicated rules in .autocop-rubocop.yml
+
 ## v0.2.5 - 2019-03-05
 
 - Fix `Style/FlipFlop` to `Lint/FlipFlop`
