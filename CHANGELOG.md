@@ -1,3 +1,7 @@
+## v0.2.5 - 2019-03-05
+
+- Fix `Style/FlipFlop` to `Lint/FlipFlop`
+
 ## v0.2.4 - 2018-12-19
 
 - Change styling for signal exception to be only raise (@tlubz)
