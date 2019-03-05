@@ -994,7 +994,7 @@ Layout/FirstParameterIndentation:
     - special_for_inner_method_call_in_parentheses
   IndentationWidth:
 
-Style/FlipFlop:
+Lint/FlipFlop:
   Description: Checks for flip flops
   StyleGuide: https://github.com/bbatsov/ruby-style-guide#no-flip-flops
   Enabled: true
