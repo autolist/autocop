@@ -1902,15 +1902,3 @@ Style/WordArray:
   MinSize: 0
   WordRegex: !ruby/regexp /\A[\p{Word}\n\t]+\z/
 
-Metrics/MethodLength:
-  Max: 30
-
-Metrics/LineLength:
-  Max: 200
-
-Style/NumericLiterals:
-  MinDigits: 7
-
-Metrics/ModuleLength:
-  CountComments: false
-  Max: 300
