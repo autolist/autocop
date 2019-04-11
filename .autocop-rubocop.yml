@@ -1915,4 +1915,8 @@ Style/WordArray:
 # Also, the conditional style is more performance (on a micro scale)
 Style/NumericPredicate:
   Enabled: false
+  EnforcedStyle: predicate
+  SupportedStyles:
+    - predicate
+    - comparison
 
