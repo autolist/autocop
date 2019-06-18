@@ -383,7 +383,7 @@ Performance/RedundantMerge:
   Enabled: true
 
 # Supports --auto-correct
-Performance/RedundantSortBy:
+Style/RedundantSortBy:
   Description: Use `sort` instead of `sort_by { |x| x }`.
   Enabled: true
 
@@ -394,7 +394,7 @@ Performance/ReverseEach:
   Enabled: true
 
 # Supports --auto-correct
-Performance/Sample:
+Style/Sample:
   Description: Use `sample` instead of `shuffle.first`, `shuffle.last`, and `shuffle[Fixnum]`.
   Reference: https://github.com/JuanitoFatas/fast-ruby#arrayshufflefirst-vs-arraysample-code
   Enabled: true
@@ -983,17 +983,6 @@ Layout/FirstMethodParameterLineBreak:
     parameter definition.
   Enabled: false
 
-# Supports --auto-correct
-Layout/FirstParameterIndentation:
-  Description: Checks the indentation of the first parameter in a method call.
-  Enabled: true
-  EnforcedStyle: special_for_inner_method_call_in_parentheses
-  SupportedStyles:
-    - consistent
-    - special_for_inner_method_call
-    - special_for_inner_method_call_in_parentheses
-  IndentationWidth:
-
 Lint/FlipFlop:
   Description: Checks for flip flops
   StyleGuide: https://github.com/bbatsov/ruby-style-guide#no-flip-flops
@@ -1075,32 +1064,10 @@ Style/IfWithSemicolon:
   Enabled: true
 
 # Supports --auto-correct
-Layout/IndentArray:
-  Description: Checks the indentation of the first element in an array literal.
-  Enabled: true
-  EnforcedStyle: special_inside_parentheses
-  SupportedStyles:
-    - special_inside_parentheses
-    - consistent
-    - align_brackets
-  IndentationWidth:
-
-# Supports --auto-correct
 Layout/IndentAssignment:
   Description: Checks the indentation of the first line of the right-hand-side of a
     multi-line assignment.
   Enabled: true
-  IndentationWidth:
-
-# Supports --auto-correct
-Layout/IndentHash:
-  Description: Checks the indentation of the first key in a hash literal.
-  Enabled: true
-  EnforcedStyle: special_inside_parentheses
-  SupportedStyles:
-    - special_inside_parentheses
-    - consistent
-    - align_braces
   IndentationWidth:
 
 # Supports --auto-correct
