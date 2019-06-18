@@ -1,3 +1,8 @@
+## v0.3.0 - 2019-06-18
+
+- Remove obsolete rules
+- Change performance cops to style namespace
+
 ## v0.2.6 - 2019-03-05
 
 - Remove duplicated rules in .autocop-rubocop.yml
