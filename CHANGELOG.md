@@ -1,3 +1,7 @@
+## v0.3.1 - 2019-06-18
+
+- Fix `EnforcedStyle: always` of frozen string literal cop
+
 ## v0.3.0 - 2019-06-18
 
 - Remove obsolete rules
