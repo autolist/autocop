@@ -383,7 +383,7 @@ Performance/RedundantMerge:
   Enabled: true
 
 # Supports --auto-correct
-Performance/RedundantSortBy:
+Style/RedundantSortBy:
   Description: Use `sort` instead of `sort_by { |x| x }`.
   Enabled: true
 
@@ -394,7 +394,7 @@ Performance/ReverseEach:
   Enabled: true
 
 # Supports --auto-correct
-Performance/Sample:
+Style/Sample:
   Description: Use `sample` instead of `shuffle.first`, `shuffle.last`, and `shuffle[Fixnum]`.
   Reference: https://github.com/JuanitoFatas/fast-ruby#arrayshufflefirst-vs-arraysample-code
   Enabled: true
