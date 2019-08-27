@@ -1,3 +1,9 @@
+## v0.3.2 - 2019-08-27
+
+- Use the `rubocop-rails` and `rubocop-performance` gems
+- Fix `Performance/LstripRstrip` to `Style/Strip`
+- Fix test that was in violation of `RSpec/Be`
+
 ## v0.3.1 - 2019-06-18
 
 - Fix `EnforcedStyle: always` of frozen string literal cop
