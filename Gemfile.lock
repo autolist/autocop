@@ -3,6 +3,7 @@ PATH
   specs:
     autocop (0.3.1)
       rubocop (>= 0.52.1)
+      rubocop-performance (>= 1.4.1)
       rubocop-rspec (>= 1.22.1)
 
 GEM
@@ -41,6 +42,8 @@ GEM
       rainbow (>= 2.2.2, < 4.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 1.4.0, < 1.7)
+    rubocop-performance (1.4.1)
+      rubocop (>= 0.71.0)
     rubocop-rspec (1.35.0)
       rubocop (>= 0.60.0)
     ruby-progressbar (1.10.1)
@@ -57,4 +60,4 @@ DEPENDENCIES
   rspec
 
 BUNDLED WITH
-   1.16.5
+   1.17.2
