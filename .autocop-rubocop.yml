@@ -25,9 +25,6 @@ AllCops:
 Rails:
   Enabled: true
 
-Style/Documentation:
-  Enabled: false
-
 Bundler/OrderedGems:
   TreatCommentsAsGroupSeparators: true
   Enabled: true
@@ -185,7 +182,7 @@ Lint/UnderscorePrefixedVariableName:
   Enabled: true
 
 # Supports --auto-correct
-Lint/UnneededCopDisableDirective:
+Lint/RedundantCopDisableDirective:
   Description: 'Checks for rubocop:disable comments that can be removed. Note: this
     cop is not disabled when disabling all cops. It must be explicitly disabled.'
   Enabled: true
@@ -1812,17 +1809,17 @@ Style/UnlessElse:
   Enabled: true
 
 # Supports --auto-correct
-Style/UnneededCapitalW:
+Style/RedundantCapitalW:
   Description: Checks for %W when interpolation is not needed.
   Enabled: true
 
 # Supports --auto-correct
-Style/UnneededInterpolation:
+Style/RedundantInterpolation:
   Description: Checks for strings that are just an interpolated expression.
   Enabled: true
 
 # Supports --auto-correct
-Style/UnneededPercentQ:
+Style/RedundantPercentQ:
   Description: Checks for %q/%Q when single quotes or double quotes would do.
   StyleGuide: https://github.com/bbatsov/ruby-style-guide#percent-q
   Enabled: true
