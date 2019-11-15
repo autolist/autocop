@@ -1,3 +1,7 @@
+## v0.4.0 - 2019-11-15
+
+- Run rubocop rake task with autocop configuration
+
 ## v0.3.2 - 2019-08-27
 
 - Use the `rubocop-rails` and `rubocop-performance` gems
