@@ -1,3 +1,8 @@
+## v0.4.1 - 2019-12-17
+
+- Update rubocop, rubocop-rails, rubocop-rspec dependencies
+- Remove re-named cops to fall back to default
+
 ## v0.4.0 - 2019-11-15
 
 - Run rubocop rake task with autocop configuration
