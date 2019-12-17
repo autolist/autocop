@@ -14,7 +14,7 @@ task default: :test
 
 # Rubocop
 desc 'Run Rubocop lint checks'
-task :rubocop do
+task :rubocop do # rubocop:disable Rails/RakeEnvironment
   result = RuboCop::CLI.new.run(%w[-c .autocop-rubocop.yml])
   exit result unless result.zero?
 end
