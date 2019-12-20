@@ -1,3 +1,7 @@
+## v0.4.2 - 2019-12-20
+
+- Fix cop namespace and correct attribute name
+
 ## v0.4.1 - 2019-12-17
 
 - Update rubocop, rubocop-rails, rubocop-rspec dependencies
