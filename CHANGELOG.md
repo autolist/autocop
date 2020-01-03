@@ -1,3 +1,8 @@
+## v0.4.3 - 2020-01-03
+
+- Update rubocop performance
+- Allow ruby versions up to 3.x
+
 ## v0.4.2 - 2019-12-20
 
 - Fix cop namespace and correct attribute name
