@@ -1,3 +1,7 @@
+## v0.4.4 - 2020-03-25
+
+- Remove no longer supported cop `Style/BracesAroundHashParameters`
+
 ## v0.4.3 - 2020-01-03
 
 - Update rubocop performance
