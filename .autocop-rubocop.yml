@@ -1795,3 +1795,21 @@ Style/WordArray:
   MinSize: 0
   WordRegex: !ruby/regexp /\A[\p{Word}\n\t]+\z/
 
+# This cop does not support auto-correct, is generally noisy in our codebases,
+# and not that helpful. Reasoning for the default is dubious:
+#
+# "The default is the predicate. The benefit of that is you'll avoid silent
+# errors when accidentally comparing to nil, and will instead get a runtime
+# error. The downside is people might not immediately know whether 0 is
+# considered positive or not."
+# - https://github.com/rubocop-hq/rubocop/issues/5564#issuecomment-364748618
+#
+# I'm not sure about that reasoning because `nil > 0` is not a silent error.
+# Also, the conditional style is more performance (on a micro scale)
+Style/NumericPredicate:
+  Enabled: false
+  EnforcedStyle: predicate
+  SupportedStyles:
+    - predicate
+    - comparison
+
