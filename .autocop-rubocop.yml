@@ -43,6 +43,10 @@ Lint/AssignmentInCondition:
   Enabled: true
   AllowSafeAssignment: true
 
+Lint/BinaryOperatorWithIdenticalOperands:
+  Description: Checks for comparison of something with itself.
+  Enabled: true
+
 Lint/CircularArgumentReference:
   Description: Default values in optional keyword arguments and optional ordinal arguments
     should not refer back to the name of the argument.
@@ -76,10 +80,6 @@ Lint/EmptyEnsure:
 
 Lint/EmptyInterpolation:
   Description: Checks for empty string interpolation.
-  Enabled: true
-
-Lint/EndInMethod:
-  Description: END blocks should not be placed inside method definitions.
   Enabled: true
 
 Lint/EnsureReturn:
@@ -195,10 +195,6 @@ Lint/UselessAccessModifier:
 Lint/UselessAssignment:
   Description: Checks for useless assignment to a local variable.
   StyleGuide: https://github.com/bbatsov/ruby-style-guide#underscore-unused-vars
-  Enabled: true
-
-Lint/UselessComparison:
-  Description: Checks for comparison of something with itself.
   Enabled: true
 
 Lint/UselessElseWithoutRescue:
@@ -1450,6 +1446,12 @@ Style/SingleLineMethods:
   AllowIfMethodIsEmpty: true
 
 # Supports --auto-correct
+Layout/IndentationStyle:
+  Description: No hard tabs.
+  StyleGuide: https://github.com/bbatsov/ruby-style-guide#spaces-indentation
+  Enabled: true
+
+# Supports --auto-correct
 Layout/SpaceAfterColon:
   Description: Use spaces after colons.
   StyleGuide: https://github.com/bbatsov/ruby-style-guide#spaces-operators
@@ -1663,12 +1665,6 @@ Style/SymbolProc:
     - respond_to
 
 # Supports --auto-correct
-Layout/Tab:
-  Description: No hard tabs.
-  StyleGuide: https://github.com/bbatsov/ruby-style-guide#spaces-indentation
-  Enabled: true
-
-# Supports --auto-correct
 Style/TrailingCommaInArguments:
   Description: Checks for trailing comma in argument lists.
   StyleGuide: https://github.com/bbatsov/ruby-style-guide#no-trailing-array-commas
@@ -1795,3 +1791,71 @@ Style/WordArray:
   MinSize: 0
   WordRegex: !ruby/regexp /\A[\p{Word}\n\t]+\z/
 
+Lint/DuplicateRegexpCharacterClassElement:
+  Enabled: true
+Lint/EmptyBlock:
+  Enabled: true
+Lint/NoReturnInBeginEndBlocks:
+  Enabled: true
+Lint/ToEnumArguments:
+  Enabled: true
+Lint/UnmodifiedReduceAccumulator:
+  Enabled: true
+Style/ArgumentsForwarding:
+  Enabled: true
+Style/CollectionCompact:
+  Enabled: true
+Style/DocumentDynamicEvalDefinition:
+  Enabled: true
+Style/NegatedIfElseCondition:
+  Enabled: true
+Style/SwapValues:
+  Enabled: true
+Performance/AncestorsInclude:
+  Enabled: true
+Performance/BigDecimalWithNumericArgument:
+  Enabled: true
+Performance/RedundantSortBlock:
+  Enabled: true
+Performance/RedundantStringChars:
+  Enabled: true
+Performance/ReverseFirst:
+  Enabled: true
+Performance/SortReverse:
+  Enabled: true
+Performance/Squeeze:
+  Enabled: true
+Performance/StringInclude:
+  Enabled: true
+Performance/Sum:
+  Enabled: true
+Rails/ActiveRecordCallbacksOrder:
+  Enabled: true
+Rails/AfterCommitOverride:
+  Enabled: true
+Rails/FindById:
+  Enabled: true
+Rails/Inquiry:
+  Enabled: true
+Rails/MailerName:
+  Enabled: true
+Rails/MatchRoute:
+  Enabled: true
+Rails/NegateInclude:
+  Enabled: true
+Rails/Pluck:
+  Enabled: true
+Rails/PluckInWhere:
+  Enabled: true
+Rails/RenderInline:
+  Enabled: true
+Rails/RenderPlainText:
+  Enabled: true
+Rails/ShortI18n:
+  Enabled: true
+Rails/SquishedSQLHeredocs:
+  Enabled: true
+Rails/WhereExists:
+  Enabled: true
+Rails/WhereNot:
+  Enabled: true

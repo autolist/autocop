@@ -1,3 +1,7 @@
+## v0.5.0 - 2020-11-10
+
+- Update rubocop, rubocop-rails, rubocop-rspec dependencies
+
 ## v0.4.4 - 2020-03-25
 
 - Remove no longer supported cop `Style/BracesAroundHashParameters`
